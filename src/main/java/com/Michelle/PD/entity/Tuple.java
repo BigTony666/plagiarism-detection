@@ -4,10 +4,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * This class defines the Tuple
+ * A Tuple entity has a list of words and a sizeOfTuple field
+ */
 public class Tuple {
     
     private List<String> words;
-    public static int N;
+    private static int sizeOfTuple;
     
     public Tuple(List<String> words) {
         this.words = words;
@@ -21,23 +25,21 @@ public class Tuple {
         this.words = words;
     }
     
-    public static int getN() {
-        return N;
+    public static int getSizeOfTuple() {
+        return sizeOfTuple;
     }
     
-    public static void setN(int n) {
-        N = n;
+    public static void setSizeOfTuple(int sizeOfTuple) {
+        Tuple.sizeOfTuple = sizeOfTuple;
     }
     
     public static boolean isMatch(Map<String, Set<String>> synonyms, Tuple tuple1, Tuple tuple2) {
         List<String> words1 = tuple1.getWords();
         List<String> words2 = tuple2.getWords();
-        int N1 = tuple1.getN();
-        int N2 = tuple2.getN();
         
-        if (N1 != N2 || words1.size() != words2.size()) return false;
+        if (words1.size() != words2.size()) return false;
         
-        for (int i = 0; i < N1; i++) {
+        for (int i = 0; i < Tuple.sizeOfTuple; i++) {
             String word1 = words1.get(i);
             String word2 = words2.get(i);
             
