@@ -1,0 +1,12 @@
+
+Xsquid:S2209#"5Change this instance-reference to a static reference.(Óœİçúÿÿÿÿ8Ü“¢á-
+osquid:S3008
+"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜßŞÒûÿÿÿÿ8¤Æ‹¢á-
+usquid:S00117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óœİçúÿÿÿÿ8¹¸…¢á-
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°Ş‹åıÿÿÿÿ8¹¸…¢á-
+Jsquid:S1444
+"'Make this "public static N" field final(ÜßŞÒûÿÿÿÿ8ô¸¢á-
+Ssquid:S2209$"5Change this instance-reference to a static reference.(Æ­ôû8Ü“¢á-
+psquid:S00117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ­ôû8¹¸…¢á-
+‡"squid:ClassVariableVisibilityCheck
+"MMake N a static final constant or non-public and provide accessors if needed.(ÜßŞÒûÿÿÿÿ8ô¸¢á-

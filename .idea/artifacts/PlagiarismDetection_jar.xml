@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PlagiarismDetection:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PlagiarismDetection_jar</output-path>
+    <root id="archive" name="PlagiarismDetection.jar">
+      <element id="module-output" name="PlagiarismDetection" />
+    </root>
+  </artifact>
+</component>
