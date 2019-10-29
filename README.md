@@ -1,8 +1,5 @@
 # Plagiarism Detection Program
 
-## Author
-Michelle Xu
-
 ## Design
 
 The program is to detect the plagiarism ratio of two input files with the synonyms file. The comparison algorithm
